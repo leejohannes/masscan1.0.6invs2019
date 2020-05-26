@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/robertdavidgraham/masscan.svg?branch=master)](https://travis-ci.org/robertdavidgraham/masscan.svg)
 # 只是在 VS2019 中编译，没改其他的
 
-[不想编译直接下载]https://github.com/leejohannes/masscan1.0.6invs2019/releases/tag/1.0.6
+[不想编译直接下载](https://github.com/leejohannes/masscan1.0.6invs2019/releases/tag/1.0.6)
 
-[更多介绍]http://iheld.net/?post=103
+[更多介绍](http://iheld.net/?post=103)
 
 # Only changed those
 
