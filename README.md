@@ -1,4 +1,32 @@
 [![Build Status](https://travis-ci.org/robertdavidgraham/masscan.svg?branch=master)](https://travis-ci.org/robertdavidgraham/masscan.svg)
+# 只是在 VS2019 中编译，没改其他的
+
+[不想编译直接下载]https://github.com/leejohannes/masscan1.0.6invs2019/releases/tag/1.0.6
+
+[更多介绍]http://iheld.net/?post=103
+
+# Only changed those
+
+only change 3 place for complie in VS2019
+
+1: misc/string_s.h 108 line
+```bash
+_MSC_VER >= 1900
+```
+2: stubs/stub-lua.c 58 line
+```
+name = (void*(*)())GetProc...
+```
+3:fix LNK2019 error
+
+add back
+```bash
+src/misc-rstfilter.c
+src/misc-rstfilter.h
+```
+to masscan.vcxproj & masscan.vcxproj.filters 
+
+
 
 # MASSCAN: Mass IP port scanner
 
