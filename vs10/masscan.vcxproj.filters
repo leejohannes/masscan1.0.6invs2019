@@ -345,6 +345,9 @@
     <ClCompile Include="..\src\proto-oproto.c">
       <Filter>Source Files\proto</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\misc-rstfilter.c">
+      <Filter>Source Files\misc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\proto-arp.h">
@@ -592,6 +595,9 @@
     </ClInclude>
     <ClInclude Include="..\src\proto-oproto.h">
       <Filter>Source Files\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\misc-rstfilter.h">
+      <Filter>Source Files\misc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
