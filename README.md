@@ -9,7 +9,7 @@
 
 only change 3 place for complie in VS2019
 
-1: misc/string_s.h 108 line
+1: misc/string_s.h 58 line
 ```bash
 _MSC_VER >= 1900
 ```
